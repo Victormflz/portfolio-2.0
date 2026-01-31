@@ -18,6 +18,10 @@
     <meta name="twitter:title" content="Víctor Flórez | Desarrollador Web">
     <meta name="twitter:description" content="Backend Developer & Content Creator">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='72' font-family='serif' font-size='50' font-weight='700' fill='white' text-anchor='middle' letter-spacing='-2'%3EVF%3C/text%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='72' font-family='serif' font-size='50' font-weight='700' fill='white' text-anchor='middle' letter-spacing='-2'%3EVF%3C/text%3E%3C/svg%3E">
+    
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,7 +86,7 @@
     <nav role="navigation" aria-label="Navegación principal">
         <div class="container">
             <a href="#" class="logo" aria-label="Víctor Flórez">VF</a>
-            <div class="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menú">
+            <div class="menu-toggle" id="menuToggle" aria-label="Abrir menú" role="button" tabindex="0">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -93,7 +97,7 @@
                 <li><a href="#projects" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
                 <li><a href="#testimonials" data-es="Testimonios" data-en="Testimonials">Testimonios</a></li>
                 <li><a href="#contact" data-es="Contacto" data-en="Contact">Contacto</a></li>
-                <li><button class="lang-switch" onclick="toggleLanguage()" aria-label="Cambiar idioma">EN</button></li>
+                <li><button class="lang-switch" id="langSwitch" aria-label="Cambiar idioma">EN</button></li>
             </ul>
         </div>
     </nav>
@@ -182,9 +186,9 @@
         </div>
         
         <div class="projects-grid">
-            <article class="project-card" onclick="window.open('https://caifu.vercel.app/', '_blank', 'noopener,noreferrer')">
+            <article class="project-card" data-url="https://caifu.vercel.app/">
                 <div class="project-image-container">
-                    <img src="importadora caifu.png" alt="Importadora Caifu - Catálogo Mayorista" loading="lazy">
+                    <img src="importadora caifu.png" alt="Importadora Caifu - Catálogo Mayorista" loading="lazy" width="600" height="400">
                 </div>
                 <div class="project-content">
                     <div class="project-tags">
@@ -202,9 +206,9 @@
                 </div>
             </article>
             
-            <article class="project-card" onclick="window.open('https://santaritaweb.vercel.app/', '_blank', 'noopener,noreferrer')">
+            <article class="project-card" data-url="https://santaritaweb.vercel.app/">
                 <div class="project-image-container">
-                    <img src="parroquia santa rita.png" alt="Parroquia Santa Rita - Sitio Web Institucional" loading="lazy">
+                    <img src="parroquia santa rita.png" alt="Parroquia Santa Rita - Sitio Web Institucional" loading="lazy" width="600" height="400">
                 </div>
                 <div class="project-content">
                     <div class="project-tags">
@@ -221,9 +225,9 @@
                 </div>
             </article>
             
-            <article class="project-card" onclick="window.open('https://reformasjf.vercel.app/', '_blank', 'noopener,noreferrer')">
+            <article class="project-card" data-url="https://reformasjf.vercel.app/">
                 <div class="project-image-container">
-                    <img src="reformas jf.png" alt="Reformas JF - Landing Page" loading="lazy">
+                    <img src="reformas jf.png" alt="Reformas JF - Landing Page" loading="lazy" width="600" height="400">
                 </div>
                 <div class="project-content">
                     <div class="project-tags">
@@ -240,9 +244,9 @@
                 </div>
             </article>
             
-            <article class="project-card" onclick="window.open('https://mi-portfolio-five-lilac.vercel.app/', '_blank', 'noopener,noreferrer')">
+            <article class="project-card" data-url="https://mi-portfolio-five-lilac.vercel.app/">
                 <div class="project-image-container">
-                    <img src="portfolio .png" alt="Portfolio Personal - Víctor Flórez" loading="lazy">
+                    <img src="portfolio .png" alt="Portfolio Personal - Víctor Flórez" loading="lazy" width="600" height="400">
                 </div>
                 <div class="project-content">
                     <div class="project-tags">
