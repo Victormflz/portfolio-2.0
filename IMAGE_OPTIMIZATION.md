@@ -39,7 +39,7 @@ WebP es hasta 30% más liviano que JPEG con la misma calidad.
 5. Descarga como `profile.webp`
 
 #### **Actualizar HTML:**
-Reemplaza en [index.html](index.html) línea ~106:
+Reemplaza en index.html línea ~106:
 
 ```html
 <!-- Antes -->

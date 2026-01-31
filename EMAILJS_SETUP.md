@@ -40,7 +40,7 @@ Este email fue enviado desde el formulario de contacto de victorflórez.com
 
 ### 4. Configurar Variables en el HTML
 
-En [index.html](index.html), reemplaza estas líneas (línea ~1181):
+En index.html, reemplaza estas líneas (línea ~1181):
 
 ```javascript
 emailjs.init({
@@ -91,7 +91,7 @@ Estos corresponden a los atributos `name=""` de los inputs del formulario.
 ## ✅ Probar el Formulario
 
 1. Configura las credenciales
-2. Abre [index.html](index.html) en tu navegador
+2. Abre index.html en tu navegador
 3. Ve a la sección **Contacto**
 4. Llena el formulario y envía
 5. Deberías recibir el email en tu bandeja de entrada
