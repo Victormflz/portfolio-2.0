@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         scrub: 1
                     }
                 });
-                
+                vercel                
                 // === BACKGROUND ANIMATIONS ===
                 
                 // Animate gradient orbs with slow, continuous movement

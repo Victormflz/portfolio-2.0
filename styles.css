@@ -280,10 +280,6 @@ nav .container {
     align-items: center;
 }
 
-.hero-text {
-    /* Removed animation as GSAP handles it */
-}
-
 @keyframes fadeInUp {
     from {
         opacity: 0;
